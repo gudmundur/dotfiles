@@ -1,2 +1,2 @@
 
-alias tree='tree -C'
+alias tree='tree -I node_modules -C'

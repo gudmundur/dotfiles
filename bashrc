@@ -5,7 +5,7 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[0m\]:[\[\033[1;34m\]\W\[\033[0m\]$(__git_
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export PATH=$PATH:/usr/local/sbin:~/.cabal/bin
+export PATH=./node_modules/.bin:$PATH:/usr/local/sbin:~/.cabal/bin
 
 source ~/.dotfiles/python
 source ~/.dotfiles/aliases
