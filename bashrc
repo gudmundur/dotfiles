@@ -5,7 +5,18 @@ export PS1='\[\033[01;32m\]\u@\h\[\033[0m\]:[\[\033[1;34m\]\W\[\033[0m\]$(__git_
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
-export PATH=./node_modules/.bin:$PATH:/usr/local/sbin:~/.cabal/bin
+export PATH=./node_modules/.bin:./bin:$PATH:/usr/local/sbin:~/.cabal/bin
 
 source ~/.dotfiles/python
 source ~/.dotfiles/aliases
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+# {{{
+# Node Completion - Auto-generated, do not touch.
+shopt -s progcomp
+for f in $(command ls ~/.node-completion); do
+  f="$HOME/.node-completion/$f"
+  test -f "$f" && . "$f"
+done
+# }}}

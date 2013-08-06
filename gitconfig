@@ -8,10 +8,28 @@
     br = branch
     co = checkout
     df = diff
-    lg = log -p
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	switch = !legit switch \"$@\"
+	branches = !legit branches
+	sprout = !legit sprout \"$@\"
+	unpublish = !legit unpublish \"$@\"
+	harvest = !legit harvest \"$@\"
+	sync = !legit sync \"$@\"
+	publish = !legit publish \"$@\"
+	graft = !legit graft \"$@\"
 
 [color]
 	status = auto
 	diff = auto
 	branch = auto
 
+[credential]
+	helper = osxkeychain
+[core]
+	editor = /usr/bin/vim
+[push]
+	default = upstream 
+
+[github]
+	user = gudmundur
+    password = !security find-generic-password -gs github.password -w | tr -d '\n' 
