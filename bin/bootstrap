@@ -1,0 +1,25 @@
+#!/bin/sh
+
+DOTFILES_ROOT=`pwd`
+
+success () {
+  printf "\r\033[2K  [ \033[00;32mOK\033[0m ] $1\n"
+}
+
+link_files () {
+  ln -s $1 $2
+  success "linked $1 to $2"
+}
+
+for source in `find $DOTFILES_ROOT -maxdepth 2 -name \*.symlink`
+do
+	dest="$HOME/.`basename \"${source%.*}\"`"
+	#[ ! -e $HOME/.bashrc ] && ln -s $DOTFILES_ROOT/bashrc $HOME/.bashrc
+
+	if [ -e $dest ] || [ -d $dest ]
+	then
+		success "skipped $dest"
+	else
+		link_files $source $dest
+	fi
+done

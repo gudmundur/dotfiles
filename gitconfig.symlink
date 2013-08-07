@@ -1,0 +1,29 @@
+[user]
+	name = Gudmundur Bjarni Olafsson
+	email = gudmundur.bjarni@gmail.com
+
+[credential]
+	helper = /opt/boxen/bin/boxen-git-credential
+
+[core]
+	excludesfile = /opt/boxen/config/git/gitignore
+	editor = /usr/bin/vim
+
+[hub]
+	protocol = https
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[color]
+	status = auto
+	diff = auto
+	branch = auto
+
+[push]
+	default = simple
