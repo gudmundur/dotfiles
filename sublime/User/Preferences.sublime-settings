@@ -1,6 +1,7 @@
 {
-//  "font_size": 12.0,
-//  "theme": "Soda Dark.sublime-theme",
+  "font_face": "Source Code Pro",
+  "highlight_line": true,
+  "font_size": 13.0,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "drawWhiteSpace": true,
