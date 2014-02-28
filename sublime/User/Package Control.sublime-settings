@@ -1,9 +1,24 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
+		"Alignment",
+		"CoffeeScript",
+		"CTags",
+		"EJS",
+		"Git",
+		"GitGutter",
+		"HexViewer",
 		"INI",
+		"nagios-sublime",
 		"Package Control",
 		"Puppet",
+		"Sass",
 		"SSH Config"
+	],
+	"repositories":
+	[
+		"https://github.com/bn0/nagios-sublime"
 	]
 }

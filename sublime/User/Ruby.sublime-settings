@@ -3,6 +3,8 @@
 	[
 		"Puppetfile",
 		"Vagrantfile",
-		"Berksfile"
+		"Berksfile",
+		"Guardfile",
+		"ru"
 	]
 }

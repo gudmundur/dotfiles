@@ -1,4 +1,10 @@
 --ignore-dir=node_modules
+--ignore-dir=.virtualenv
+--ignore-dir=.bundle
+--ignore-dir=.tmp
+
+--type-set=IGNORE=.tags,.tags_sorted_by_file
+--noIGNORE
 
 --type-set
 coffee=.coffee
