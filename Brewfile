@@ -20,6 +20,10 @@ install node
 install chruby
 install ruby-install
 
+# Java
+
+cask install java
+
 # Networking tools
 
 install mtr
