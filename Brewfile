@@ -41,6 +41,7 @@ cask install virtualbox
 cask install vagrant
 
 install packer
+install tree
 
 cask install f-lux
 cask install dropbox
