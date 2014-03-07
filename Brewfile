@@ -43,3 +43,4 @@ cask install vagrant
 install packer
 
 cask install f-lux
+cask install dropbox
