@@ -1,1 +1,6 @@
+# OS X Files
 .DS_Store
+
+# CTags Files
+.tags
+.tags_sorted_by_file
