@@ -31,6 +31,10 @@ install python
 
 cask install java
 
+# Databases
+
+install redis
+
 # Networking tools
 
 install mtr
