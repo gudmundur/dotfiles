@@ -6,8 +6,11 @@ install brew-cask
 # Development tools
 
 install ack
+install ctags
 install git
 install hub
+install mercurial
+
 cask install heroku-toolbelt
 cask install sublime-text
 
@@ -19,6 +22,10 @@ install node
 
 install chruby
 install ruby-install
+
+# Python
+
+install python
 
 # Java
 
