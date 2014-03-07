@@ -10,6 +10,7 @@ install ctags
 install git
 install hub
 install mercurial
+install jq
 
 cask install heroku-toolbelt
 cask install sublime-text
