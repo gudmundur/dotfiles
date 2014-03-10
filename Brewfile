@@ -11,6 +11,7 @@ install git
 install hub
 install mercurial
 install jq
+install pv
 
 cask install heroku-toolbelt
 cask install sublime-text
