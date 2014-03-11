@@ -6,6 +6,7 @@ install brew-cask
 # Development tools
 
 install ack
+install autoenv
 install ctags
 install git
 install hub
