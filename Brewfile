@@ -37,7 +37,7 @@ cask install java
 # Databases
 
 install redis
-install postgresql
+cask install postgres
 
 # Networking tools
 
