@@ -48,6 +48,7 @@ install mtr
 cask install virtualbox
 cask install vagrant
 
+install boot2docker
 install packer
 install tree
 
