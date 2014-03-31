@@ -16,6 +16,7 @@ install pv
 
 cask install heroku-toolbelt
 cask install sublime-text
+cask install gitx-rowanj
 
 # Node
 
