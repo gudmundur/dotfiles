@@ -53,6 +53,7 @@ cask install vagrant
 install boot2docker
 install packer
 install tree
+install gist
 
 cask install alfred
 cask install f-lux
