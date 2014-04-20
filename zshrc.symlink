@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 
 export ZSH_CUSTOM=$DOTFILES/custom
 
-plugins=(git osx brew brew-cask npm node chruby ruby bundler terminalapp sublime z hk)
+plugins=(git osx brew brew-cask npm node chruby terminalapp sublime z hk)
 
 source $ZSH/oh-my-zsh.sh
 
