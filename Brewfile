@@ -45,6 +45,10 @@ cask install postgres
 
 install mtr
 
+# Arduino
+
+cask install arduino
+
 # Other tools
 
 cask install virtualbox
