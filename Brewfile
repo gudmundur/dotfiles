@@ -7,11 +7,12 @@ install brew-cask
 
 install ack
 install autoenv
+install cloc
 install ctags
 install git
 install hub
-install mercurial
 install jq
+install mercurial
 install pv
 install tig
 
