@@ -68,3 +68,4 @@ install gist
 cask install alfred
 cask install f-lux
 cask install dropbox
+cask install transmission
