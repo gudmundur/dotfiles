@@ -69,3 +69,4 @@ cask install alfred
 cask install f-lux
 cask install dropbox
 cask install transmission
+cask install vlc
