@@ -50,6 +50,11 @@ install mtr
 
 cask install arduino
 
+# Tex
+
+cask install pandoc
+cask install basictex
+
 # Other tools
 
 cask install virtualbox
