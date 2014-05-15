@@ -55,6 +55,11 @@ cask install arduino
 cask install pandoc
 cask install basictex
 
+# Terminal
+
+cask install iterm2
+install tmux
+
 # Other tools
 
 cask install virtualbox
