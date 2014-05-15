@@ -59,6 +59,7 @@ cask install basictex
 
 cask install iterm2
 install tmux
+install reattach-to-user-namespace
 
 # Other tools
 
