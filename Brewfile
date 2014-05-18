@@ -8,6 +8,7 @@ install brew-cask
 install ack
 install autoenv
 install cloc
+install colordiff
 install ctags
 install git
 install hub

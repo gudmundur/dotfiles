@@ -1,3 +1,4 @@
 
+alias diff='colordiff'
 alias tree='tree -I node_modules -C'
 alias gitx='open -a GitX'
