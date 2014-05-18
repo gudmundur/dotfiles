@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 
 export ZSH_CUSTOM=$DOTFILES/custom
 
-plugins=(git osx brew brew-cask npm node chruby terminalapp sublime z hk)
+plugins=(git osx brew brew-cask npm node chruby terminalapp sublime z tmux hk)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -63,3 +63,6 @@ for file in $HOME/.zshrc.d/*.zsh; do
 done
 
 source $HOME/.aliases
+
+bindkey '\e[1;9D' backward-word
+bindkey '\e[1;9C' forward-word
