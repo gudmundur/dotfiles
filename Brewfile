@@ -16,6 +16,7 @@ install jq
 install mercurial
 install pv
 install tig
+install wrk
 
 cask install heroku-toolbelt
 cask install sublime-text
@@ -71,6 +72,7 @@ install boot2docker
 install packer
 install tree
 install gist
+cask install ngrok
 
 cask install alfred
 cask install f-lux
