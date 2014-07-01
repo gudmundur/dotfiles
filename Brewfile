@@ -48,6 +48,7 @@ install postgresql
 # Networking tools
 
 install mtr
+install s3cmd
 
 # Arduino
 
