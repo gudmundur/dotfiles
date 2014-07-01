@@ -16,6 +16,7 @@ install jq
 install mercurial
 install pv
 install tig
+install vim
 install wrk
 
 cask install heroku-toolbelt
@@ -72,6 +73,7 @@ install boot2docker
 install packer
 install tree
 install gist
+
 cask install ngrok
 
 cask install alfred
