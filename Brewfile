@@ -74,6 +74,7 @@ install boot2docker
 install packer
 install tree
 install gist
+install gnu-tar
 
 cask install ngrok
 
