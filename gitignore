@@ -2,5 +2,6 @@
 .DS_Store
 
 # CTags Files
+tags
 .tags
 .tags_sorted_by_file
