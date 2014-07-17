@@ -73,6 +73,18 @@ Bundle 'tpope/vim-markdown'
  
 " Coffee-script syntax.
 " Bundle 'kchmck/vim-coffee-script'
+
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-sleuth'
+Bundle 'kikijump/tslime.vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'bling/vim-airline'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'scrooloose/syntastic'
+Bundle 'majutsushi/tagbar'
+Bundle 'ekalinin/Dockerfile.vim'
  
  
 " We have to turn this stuff back on if we want all of our features.
@@ -160,10 +172,16 @@ let g:ctrlp_map = '<c-t>'
  
 " Let ctrlp have up to 30 results.
 let g:ctrlp_max_height = 30
- 
- 
+
+
 " Finally the color scheme. Choose whichever you want from the list in the
 " link above (back up where we included the bundle of a ton of themes.)
 
 " colorscheme molokai 
 
+set mouse=a
+set backspace=2
+set clipboard=unnamed
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
