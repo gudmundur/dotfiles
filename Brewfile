@@ -5,7 +5,7 @@ install brew-cask
 
 # Development tools
 
-install ack
+install ag
 install autoenv
 install cloc
 install colordiff
