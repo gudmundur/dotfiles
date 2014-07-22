@@ -11,7 +11,7 @@ install cloc
 install colordiff
 install ctags
 install git
-install hub
+install gh
 install jq
 install mercurial
 install pv
