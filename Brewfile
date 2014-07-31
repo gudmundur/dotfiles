@@ -48,7 +48,9 @@ install postgresql
 # Networking tools
 
 install mtr
+install nmap
 install s3cmd
+cask install wireshark
 
 # Arduino
 
@@ -83,3 +85,5 @@ cask install f-lux
 cask install dropbox
 cask install transmission
 cask install vlc
+cask install xquartz
+
