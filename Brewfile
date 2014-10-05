@@ -73,6 +73,7 @@ cask install virtualbox
 cask install vagrant
 
 install boot2docker
+install fig
 install packer
 install tree
 install gist
@@ -83,7 +84,12 @@ cask install ngrok
 cask install alfred
 cask install f-lux
 cask install dropbox
+install exiv2
+install ffmpeg
+install gifsicle
+install imagemagick
 cask install transmission
+install ufraw
 cask install vlc
 cask install xquartz
 
