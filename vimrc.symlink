@@ -86,6 +86,8 @@ Bundle 'ekalinin/Dockerfile.vim'
 Bundle 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
 Bundle 'rking/ag.vim'
+Plugin 'mustache/vim-mustache-handlebars'
+Bundle 'slim-template/vim-slim.git'
 
 " We have to turn this stuff back on if we want all of our features.
 filetype plugin indent on " Filetype auto-detection
