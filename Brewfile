@@ -1,6 +1,7 @@
 # Casks
 
 tap "caskroom/cask"
+tap "caskrook/homebrew-fonts"
 
 # Development tools
 
@@ -56,6 +57,11 @@ cask "iterm2"
 brew "zsh"
 brew "tmux"
 brew "reattach-to-user-namespace"
+
+# Fonts
+
+cask "source-code-pro"
+cask "hack"
 
 # Other tools
 
