@@ -1,95 +1,82 @@
 # Casks
 
-tap phinze/cask
-install brew-cask
+tap "caskroom/cask"
 
 # Development tools
 
-install ag
-install autoenv
-install cloc
-install colordiff
-install ctags
-install git
-install gh
-install jq
-install mercurial
-install pv
-install tig
-install vim
-install wrk
-
-cask install heroku-toolbelt
-cask install sublime-text
-cask install gitx-rowanj
+brew "ag"
+brew "autoenv"
+brew "cloc"
+brew "colordiff"
+brew "ctags"
+brew "git"
+brew "gh"
+brew "jq"
+brew "mercurial"
+brew "pv"
+brew "tig"
+brew "vim"
+brew "wrk"
 
 # Node
 
-install node
+brew "nvm"
 
 # Ruby
 
-install chruby
-install ruby-install
-
-# Python
-
-install python
-
-# Java
-
-cask install java
+brew "chruby"
+brew "ruby-install"
 
 # Databases
 
-install redis
-install postgresql
+brew "redis"
+brew "postgresql"
+brew "postgis"
 
 # Networking tools
 
-install mtr
-install nmap
-install s3cmd
-cask install wireshark
+brew "mtr"
+brew "nmap"
+brew "s3cmd"
+cask "wireshark"
 
 # Arduino
 
-cask install arduino
+cask "arduino"
 
 # Tex
 
-cask install pandoc
-cask install basictex
+cask "pandoc"
+cask "basictex"
 
 # Terminal
 
-cask install iterm2
-install tmux
-install reattach-to-user-namespace
+cask "iterm2"
+brew "zsh"
+brew "tmux"
+brew "reattach-to-user-namespace"
 
 # Other tools
 
-cask install virtualbox
-cask install vagrant
+cask "virtualbox"
+cask "vagrant"
 
-install boot2docker
-install fig
-install packer
-install tree
-install gist
-install gnu-tar
+brew "docker-machine"
+brew "packer"
+brew "tree"
+brew "gist"
+brew "gnu-tar"
 
-cask install ngrok
+cask "ngrok"
 
-cask install alfred
-cask install f-lux
-cask install dropbox
-install exiv2
-install ffmpeg
-install gifsicle
-install imagemagick
-cask install transmission
-install ufraw
-cask install vlc
-cask install xquartz
+cask "flux"
+cask "dropbox"
+brew "exiv2"
+brew "ffmpeg"
+brew "gifsicle"
+brew "imagemagick"
+cask "transmission"
+brew "ufraw"
+cask "vlc"
+cask "xquartz"
 
