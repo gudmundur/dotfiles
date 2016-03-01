@@ -57,6 +57,7 @@ cask "iterm2"
 brew "zsh"
 brew "tmux"
 brew "reattach-to-user-namespace"
+brew "z"
 
 # Fonts
 
@@ -86,4 +87,4 @@ cask "transmission"
 brew "ufraw"
 cask "vlc"
 cask "xquartz"
-
+cask "yubiswitch"
