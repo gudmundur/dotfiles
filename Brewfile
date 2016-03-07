@@ -66,6 +66,7 @@ cask "hack"
 
 # Other tools
 
+cask "textexpander"
 cask "virtualbox"
 cask "vagrant"
 
@@ -83,6 +84,7 @@ brew "exiv2"
 brew "ffmpeg"
 brew "gifsicle"
 brew "imagemagick"
+cask "spotify"
 cask "transmission"
 brew "ufraw"
 cask "vlc"
