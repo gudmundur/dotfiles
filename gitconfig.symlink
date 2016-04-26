@@ -1,5 +1,5 @@
 [user]
-	name = Guðmundur Bjarni Ólafsson
+	name = Gudmundur Bjarni Olafsson
 	email = gudmundur.bjarni@gmail.com
 
 [credential]
@@ -27,3 +27,5 @@
 
 [push]
 	default = simple
+[commit]
+	gpgsign = true
