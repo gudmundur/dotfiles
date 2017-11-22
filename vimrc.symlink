@@ -45,7 +45,9 @@ Bundle 'gmarik/vundle'
 Bundle 'flazz/vim-colorschemes'
  
 " Fuzzy finder -- absolutely must have.
-Bundle 'kien/ctrlp.vim'
+" Bundle 'kien/ctrlp.vim'
+Bundle 'junegunn/fzf'
+Bundle 'junegunn/fzf.vim'
  
 " Support for easily toggling comments.
 Bundle 'tpope/vim-commentary'
@@ -77,22 +79,28 @@ Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-sleuth'
-Bundle 'kikijump/tslime.vim'
+Bundle 'jgdavey/tslime.vim'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'bling/vim-airline'
 Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
 Bundle 'ekalinin/Dockerfile.vim'
-Bundle 'scrooloose/nerdtree'
+" Bundle 'scrooloose/nerdtree'
 Plugin 'fatih/vim-go'
-Bundle 'rking/ag.vim'
+" Bundle 'rking/ag.vim'
 Plugin 'mustache/vim-mustache-handlebars'
 Bundle 'slim-template/vim-slim.git'
+" Bundle 'jlanzarotta/bufexplorer'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'ledger/vim-ledger'
+Bundle 'terryma/vim-multiple-cursors'
+Bundle 'godlygeek/tabular'
 
 " We have to turn this stuff back on if we want all of our features.
 filetype plugin indent on " Filetype auto-detection
 syntax on " Syntax highlighting
 
+set relativenumber
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
@@ -170,16 +178,18 @@ nnoremap <leader>c <Plug>CommentaryLine
 " Remap ctrlp to ctrl-t -- map it however you like, or stick with the
 " defaults. Additionally, in my OS, I remap caps lock to control. I never use
 " caps lock. This is highly recommended.
-let g:ctrlp_map = '<c-t>'
+" let g:ctrlp_map = '<c-t>'
  
 " Let ctrlp have up to 30 results.
-let g:ctrlp_max_height = 30
+" let g:ctrlp_max_height = 30
 
+nnoremap <C-t> :Files<cr>
+nnoremap <leader>b :Buffers<cr>
 
 " Finally the color scheme. Choose whichever you want from the list in the
 " link above (back up where we included the bundle of a ton of themes.)
 
-" colorscheme molokai 
+" colorscheme molokai
 
 set mouse=a
 set backspace=2
@@ -188,12 +198,32 @@ set clipboard=unnamed
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
 
-let g:ctrlp_open_new_file = 'r'
+" let g:ctrlp_open_new_file = 'r'
+" let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|\.git\|tmp'
 
 let g:ackprg = 'ag --nogroup --nocolor --column'
 
-" Settings for NERDTree
-let NERDTreeIgnore=['\.pyc$', '\.egg-info$[[dir]]', '\~$', '\.hi$', '\.o$','\.class$']
+let g:go_def_mapping_enabled = 0
 
-nmap <leader>d :NERDTreeToggle<CR>
+" Settings for NERDTree
+" let NERDTreeIgnore=['\.pyc$', '\.egg-info$[[dir]]', '\~$', '\.hi$', '\.o$','\.class$']
+
+" let g:bufExplorerShowRelativePath=1
+
+" nmap <leader>d :NERDTreeToggle<CR>
 nmap <leader>t :TagbarOpenAutoClose<CR>
+
+nmap <Leader>a= :Tabularize /=<CR>
+vmap <Leader>a= :Tabularize /=<CR>
+nmap <Leader>a: :Tabularize /:\zs<CR>
+vmap <Leader>a: :Tabularize /:\zs<CR>
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+noremap! <Up> <NOP>
+noremap! <Down> <NOP>
+noremap! <Left> <NOP>
+noremap! <Right> <NOP>
