@@ -7,7 +7,7 @@
 
 [core]
 	excludesfile = ~/.dotfiles/gitignore
-	editor = /usr/bin/vim
+	editor = /usr/local/bin/vim
 
 [hub]
 	protocol = https
@@ -27,7 +27,7 @@
 
 [push]
 	default = simple
-[commit]
-	gpgsign = true
-[gpg]
-    program = gpg2
+; [commit]
+; 	gpgsign = true
+; [gpg]
+;     program = gpg2

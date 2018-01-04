@@ -10,6 +10,8 @@ brew "autoenv"
 brew "cloc"
 brew "colordiff"
 brew "ctags"
+brew "direnv"
+brew "fzf"
 brew "git"
 brew "gh"
 brew "gpg"
@@ -24,6 +26,10 @@ brew "pv"
 brew "tig"
 brew "vim"
 brew "wrk"
+
+# Golang
+
+brew install "go"
 
 # Node
 
@@ -69,6 +75,10 @@ brew "z"
 cask "source-code-pro"
 cask "hack"
 
+# Heroku
+
+brew "heroku/brew/heroku"
+
 # Other tools
 
 cask "textexpander"
@@ -93,6 +103,7 @@ cask "omnifocus"
 cask "screenhero"
 cask "skype"
 cask "spotify"
+cask "toggl"
 cask "transmission"
 brew "ufraw"
 cask "vlc"

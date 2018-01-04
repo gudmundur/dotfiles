@@ -8,3 +8,6 @@ tags
 
 # Ruby files
 .bundle
+
+# Direnv files
+.envrc
