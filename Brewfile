@@ -8,7 +8,6 @@ tap "caskrook/homebrew-fonts"
 brew "ag"
 brew "autoenv"
 brew "cloc"
-brew "colordiff"
 brew "ctags"
 brew "direnv"
 brew "fzf"
@@ -18,14 +17,11 @@ brew "gpg"
 brew "gpg2"
 brew "gpg-agent"
 brew "graphviz"
-brew "heroku-toolbelt"
 brew "hub"
 brew "jq"
-brew "mercurial"
 brew "pv"
 brew "tig"
 brew "vim"
-brew "wrk"
 
 # Golang
 
@@ -50,17 +46,7 @@ brew "postgis"
 
 brew "mtr"
 brew "nmap"
-brew "s3cmd"
 cask "wireshark"
-
-# Arduino
-
-cask "arduino"
-
-# Tex
-
-cask "pandoc"
-cask "basictex"
 
 # Terminal
 
@@ -81,31 +67,18 @@ brew "heroku/brew/heroku"
 
 # Other tools
 
-cask "textexpander"
 cask "virtualbox"
-cask "vagrant"
 
 brew "docker-machine"
 brew "packer"
 brew "tree"
-brew "gist"
 brew "gnu-tar"
 
 cask "ngrok"
 
 cask "flux"
-cask "dropbox"
-brew "exiv2"
-brew "ffmpeg"
-brew "gifsicle"
-brew "imagemagick"
-cask "omnifocus"
-cask "screenhero"
+cask "slack"
 cask "skype"
 cask "spotify"
 cask "toggl"
-cask "transmission"
-brew "ufraw"
-cask "vlc"
-cask "xquartz"
 cask "yubiswitch"
